@@ -1,7 +1,7 @@
 html,body{
   min-width:290px;
-    font-family: 'Open Sans',Arial,sans-serif;
-    line-height: 1.5;
+  font-family: 'Aleo', serif;
+  line-height: 1.5;
 }
 #navbar{
   background-color:#3366ff;
