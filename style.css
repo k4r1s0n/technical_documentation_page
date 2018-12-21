@@ -3,13 +3,19 @@ html,body{
   font-family: 'Aleo', serif;
   line-height: 1.5;
 }
+img {
+  position: relative;
+  top: 12px;
+  max-width: 100%;
+  height: auto;
+}
 #navbar{
   background-color:#3366ff;
   position:fixed;
   min-width:290px;
   top:0px;
   left:0px;
-  width:300px;
+  width:400px;
   height:100%;
   border-right:solid;
   border-color:rgba(0,22,22,0.4)
@@ -20,6 +26,7 @@ header{
   text-align:center;
   font-size:1.8em;
   font-weight:thin;
+  border-bottom: 2px solid #3366ff;
 }
 #navbar header{
   color:white
@@ -52,7 +59,7 @@ header{
 } 
 #main-doc{
   position: absolute;
-  margin-left:310px;
+  margin-left:410px;
   padding:20px;
   margin-bottom:110px;
 }
@@ -71,7 +78,8 @@ code{
   word-break: normal;
   word-wrap: normal;
   line-height: 2;
-  background-color:#f7f7f7;
+  background-color: #3366ff;
+  color: white;
   padding:15px;
   margin:10px;
   border-radius:5px;
