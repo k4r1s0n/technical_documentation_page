@@ -47,7 +47,9 @@ header{
   position:relative;
   left:-50px;
   width:100%;
-  
+  border: solid white;
+  margin: 3% 10%;
+  width: 80%;
 }
 #navbar a{
   color: white;
@@ -62,7 +64,7 @@ header{
 }
 section article{
   margin:15px;
-  font-size:0.96em;
+  font-size:1em;
 }
 section li {
   margin:15px 0px 0px 20px;
@@ -81,38 +83,34 @@ code{
   border-radius:5px;
   width: 30%;
 }
-@media only screen and (max-width: 815px) {
-    /* For mobile phones: */
+@media (max-width: 815px) {
   #navbar ul{
-  border:1px solid;
-    height:207px;
+    height:80px;
   }
   #navbar{
-    background-color:#3366ff;
+    background:#3366ff;
     color: white;
-    position:absolute;
+    position: fixed;
     top:0;
     padding:0;
     margin: 0;
     width:100%;
-    max-height:275px;
+    height:175px;
     border:none;
     z-index:1;
     border-bottom:2px solid;
   }
   #main-doc{
-    position: relative;
+    position: fixed;
     margin-left:0px;
-    margin-top:270px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  #main-doc{
-    margin-left:-10px;
+    margin-top:180px;
+    height:88%;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
   code{
     margin-left:-20px;
-    width:100%;
+    width:70%;
     padding:15px;
     padding-left:10px;
     padding-right:45px;
