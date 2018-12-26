@@ -104,9 +104,11 @@ code{
     position: fixed;
     margin-left:0px;
     margin-top:180px;
-    height:88%;
+    height:65%;
     overflow-y:auto;
     overflow-x:hidden;
+    left: 0px;
+    right: 0px;
   }
   code{
     margin-left:-20px;
